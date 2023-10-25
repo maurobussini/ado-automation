@@ -1,0 +1,50 @@
+arguments:
+  userStoryId: null
+
+parent:
+  workItemId: '{{userStoryId}}'
+  type: User Story
+
+children:
+
+- title: Implementation
+  type: Task
+  activity: Development
+  originalEstimate: 12
+  remainingWork: 12
+  completedWork: 0
+
+- title: Smoke Test
+  type: Task
+  activity: Development
+  originalEstimate: 1
+  remainingWork: 1
+  completedWork: 0
+
+- title: 'Deploy T0/T1'
+  type: Task
+  activity: Development
+  originalEstimate: 0,5
+  remainingWork: 0,5
+  completedWork: 0
+
+- title: Set AC
+  type: Task
+  activity: Development
+  originalEstimate: 1
+  remainingWork: 1
+  completedWork: 0
+
+- title: Code Review
+  type: Task
+  activity: Development
+  originalEstimate: 2
+  remainingWork: 2
+  completedWork: 0
+
+- title: Test Placeholder
+  type: Task
+  activity: Testing
+  originalEstimate: 2
+  remainingWork: 2
+  completedWork: 0
